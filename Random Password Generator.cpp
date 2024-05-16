@@ -11,7 +11,7 @@ int main() {
     int length;
 
     do {
-		
+
         cout << endl;
         cout << "Please input the length of the password you want to generate: ";
         cin >> length;
@@ -23,9 +23,10 @@ int main() {
         for (int i = 0; i < length; i++) {
             cout << randGen[rand() % ::size];
         }
-        cout << endl;
+		cout << endl;
 
         do {
+        	cout << endl;
             cout << "Do you want to generate another password? (Y/N): ";
             cin >> choice;
 
