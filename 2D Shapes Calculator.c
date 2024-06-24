@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-//Need a redo on ui menu
+//Need a redo on ui 
 int main(){
 
     int ChosenNumber, choices;
